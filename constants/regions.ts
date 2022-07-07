@@ -1,4 +1,4 @@
-export const regions = {
+const regions: Record<string, string> = {
     la1: 'lan',
     la2: 'las',
     br1: 'br',
@@ -21,3 +21,5 @@ export const regions = {
     oc: 'oc1',
     tr: 'tr1',
 }
+
+export default regions
